@@ -95,7 +95,7 @@ def webhook():
 def set_webhook():
     """Set webhook for Telegram bot"""
     # ⚠️ You'll replace this with your actual Render URL later
-    webhook_url = "https://your-render-url.onrender.com/webhook"
+    webhook_url = "https://deliverybot-ph3t.onrender.com/webhook"
     try:
         bot.remove_webhook()
         success = bot.set_webhook(url=webhook_url)
