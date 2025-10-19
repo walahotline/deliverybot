@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Bot token from environment variable
-BOT_TOKEN = os.environ.get('7407256981:AAEFnoMfwBK0kXtxKOkEIAnaAC4MSpSzusA')
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 
 app = Flask(__name__)
 bot = telebot.TeleBot(BOT_TOKEN)
