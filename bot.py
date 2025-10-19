@@ -21,7 +21,7 @@ video_database = {
         'description': 'This is the first amazing video'
     },
     'video2': {
-        'file_id': 'YOUR_VIDEO_2_FILE_ID_HERE',
+        'file_id': 'AAMCBQADGQECYDuHaPT0KZILOjJlvHRedB8xTXiM1ucAAuQdAAJVSahXrQZIKoihduEBAAdtAAM2BA',
         'title': 'Awesome Video 2',
         'description': 'This is the second awesome video'
     }
