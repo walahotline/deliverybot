@@ -16,8 +16,8 @@ bot = telebot.TeleBot(BOT_TOKEN)
 # ⚠️ EDIT THIS: Replace with your actual video file IDs
 video_database = {
     'video1': {
-        'file_id': 'AAMCBQADGQECX_ZYaPSPsFAvoSYidw25g6JovpgWiYwAAm4gAAJVSaBXv82JX7OcjbcBAAdtAAM2BA',
-        'title': 'Amazing Video 1',
+        'file_id': 'AAMCBQADGQECZb2WaP7zNq0Uacrh9pgL2_jgB9f-eFsAAsAYAALsivlXWrk4plQXeFUBAAdtAAM2BA',
+        'title': '',
         'description': 'This is the first amazing video'
     },
     'video2': {
