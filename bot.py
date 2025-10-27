@@ -16,7 +16,7 @@ bot = telebot.TeleBot(BOT_TOKEN)
 # ✅ FIXED: Added title and verified file_id format
 video_database = {
     'video1': {
-        'file_id': 'AAMCBQADGQEAARihcmj_AAGWnyqLlQr0_H_jgs-eFbHhbQACtBwAAgrq-Ve6cyS9oT90qAEAB20AAzYE',
+        'file_id': 'BQACAgUAAKABAAFYoXJo_wABlp8q15UK9Px_uULPnhWxWW0AArQcAAIK6vUXunMkvaE_dKg2BA',
         'title': 'Amazing Video 1',  # ✅ ADDED TITLE
         'description': 'This is the first amazing video'
     },
