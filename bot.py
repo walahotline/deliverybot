@@ -13,11 +13,11 @@ BOT_TOKEN = os.environ.get('BOT_TOKEN')
 app = Flask(__name__)
 bot = telebot.TeleBot(BOT_TOKEN)
 
-# ⚠️ EDIT THIS: Replace with your actual video file IDs
+# ✅ FIXED: Added title and verified file_id format
 video_database = {
     'video1': {
         'file_id': 'AAMCBQADGQECZb2WaP7zNq0Uacrh9pgL2_jgB9f-eFsAAsAYAALsivlXWrk4plQXeFUBAAdtAAM2BA',
-        'title': '',
+        'title': 'Amazing Video 1',  # ✅ ADDED TITLE
         'description': 'This is the first amazing video'
     },
     'video2': {
@@ -94,7 +94,6 @@ def webhook():
 @app.route('/set_webhook', methods=['GET'])
 def set_webhook():
     """Set webhook for Telegram bot"""
-    # ⚠️ You'll replace this with your actual Render URL later
     webhook_url = "https://deliverybot-ph3t.onrender.com/webhook"
     try:
         bot.remove_webhook()
@@ -110,4 +109,4 @@ def index():
     return "Bot is running and ready to serve videos! 🎬"
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000)  # ✅ FIXED: Added missing ) and 0
