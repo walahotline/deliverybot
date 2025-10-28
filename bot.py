@@ -18,7 +18,7 @@ admin_bot = telebot.TeleBot(ADMIN_BOT_TOKEN)
 # Video database - update these file_ids with ones from your admin bot
 video_database = {
     'video1': {
-        'file_id': 'BQACAgUAAxkBAAMFaQABzeZezuQ6lytq3mnClU9-FuxNAAK0HAACCur5V7bxDbGQwmLFNgQ',
+        'file_id': 'BQACAgUAAxkBAAMKaQAB0oRIgoQzg0I3KCUBJ1YI8PjuAALxGwACrrkIVLjRgoazN5igNgQ',
         'title': 'Amazing Video 1',
         'description': 'This is the first amazing video'
     },
