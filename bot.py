@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 # Bot tokens from environment variables
 BOT_TOKEN = os.environ.get('BOT_TOKEN')  # Your main bot token
-ADMIN_BOT_TOKEN = "8446738472:AAHYgjb8CUYbTYiHSwRkCHSR7VzNMoKk_OA"  # Your admin bot token
+ADMIN_BOT_TOKEN = "7333444202:AAEogLn_hq-DKQOs6qYoq40dHbLiBHGuzoo"  # Your admin bot token
 
 app = Flask(__name__)
 bot = telebot.TeleBot(BOT_TOKEN)
@@ -18,7 +18,7 @@ admin_bot = telebot.TeleBot(ADMIN_BOT_TOKEN)
 # Video database - update these file_ids with ones from your admin bot
 video_database = {
     'video1': {
-        'file_id': 'BQACAgUAAxkBAAMKaQAB0oRIgoQzg0I3KCUBJ1YI8PjuAALxGwACrrkIVLjRgoazN5igNgQ',
+        'file_id': 'BAACAgUAAxkBAAEC-DVpSV4-9MJUUM9K4PMX3GnEa_XHugACkx8AAhsKSFbxcawF4hIbRDYE',
         'title': 'Amazing Video 1',
         'description': 'This is the first amazing video'
     },
